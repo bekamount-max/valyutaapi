@@ -1,0 +1,116 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card{
+    border: 8px solid green;
+    box-shadow: 0  0 100px rgb(0, 0, 0);
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    padding: 40px 40px;
+    margin-top: 200px;
+    border-radius: 20px;
+}
+
+
+
+input{
+
+    margin-left: 40px;
+}
+
+
+.or{
+    font-size: 20px;
+}
+
+i{
+    transform: rotate(90deg);
+}
+
+.n{
+    display: flex;
+    align-items: center;
+}
+
+.btn{
+    font-size: 20px;
+    background-color: white;
+}
+
+select{
+    
+    border: none;
+}
+
+option{
+    font-size: 20px;
+}
+
+
+    .input-box {
+      position: relative;
+    }
+
+    input {
+      padding: 10px 20px;
+      border: 2px solid #ccc;
+      border-radius: 5px;
+      outline: none;
+      transition: all 0.3s ease;
+    }
+
+    input:focus {
+      border-color: #007bff;
+      box-shadow: 0 0 10px rgba(0,123,255,0.5);
+      transform: scale(1.05);
+    }
+
+    /* Optional: Label animatsiyasi */
+    label {
+      position: absolute;
+      left: 20px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: #888;
+      transition: 0.3s;
+      pointer-events: none;
+    }
+
+    input:focus + label,
+    input:not(:placeholder-shown) + label {
+      top: -10px;
+      left: 10px;
+      font-size: 40px;
+      color: #007bff;
+      background: #f0f0f0;
+      padding: 0 5px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
